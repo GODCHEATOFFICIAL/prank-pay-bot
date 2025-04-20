@@ -29,7 +29,7 @@ async def send_join_prompt(update: Update):
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
-        "Join Our Official Channel For using it - https://t.me/+hrIjYhMdgMthNDI1\n\n also join this channel https://t.me/Fakephonepay_paytm_gpay After join click on verify botton 👇",
+        "Join Our Official Channel For using it - https://t.me/+hrIjYhMdgMthNDI1 also join this channel https://t.me/Fakephonepay_paytm_gpay After join click on verify botton 👇",
         reply_markup=reply_markup
     )
 
@@ -43,7 +43,7 @@ async def send_verify_message(update: Update, context: ContextTypes.DEFAULT_TYPE
         )
     except Exception as e:
         print(f"Error forwarding: {e}")
-        await context.bot.send_message(chat_id=chat_id, text="Error forwarding message.")
+        await context.bot.send_message(chat_id=chat_id, text="https://t.me/Fakephonepay_paytm_gpay/17")
 
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
